@@ -1,0 +1,240 @@
+{
+  "workbench.iconTheme": "material-icon-theme",
+  "files.autoSaveDelay": 1600,
+  "cSpell.userWords": [
+    "apisauce",
+    "Avalara",
+    "bignumber",
+    "BIODIESEL",
+    "camelcase",
+    "checkmark",
+    "devsettings",
+    "Dtos",
+    "esbenp",
+    "ETOH",
+    "Gasology",
+    "HEXA",
+    "janky",
+    "Monokai",
+    "MPPA",
+    "NITENS",
+    "Opis",
+    "OROCHIMARU",
+    "Overlift",
+    "Parens",
+    "Platts",
+    "Pressable",
+    "quickview",
+    "reduxjs",
+    "RHYNCHITES",
+    "ROYALE",
+    "roycereed",
+    "Snackbars",
+    "sonarlint",
+    "spreedly",
+    "stompjs",
+    "streetview",
+    "SVGR",
+    "titlecase",
+    "traefik",
+    "Trxn",
+    "ulsd",
+    "Underlift",
+    "UNZONED",
+    "usehooks",
+    "zack"
+  ],
+  "workbench.startupEditor": "none",
+  "editor.inlineSuggest.enabled": true,
+  "editor.minimap.enabled": false,
+  "workbench.editor.splitInGroupLayout": "vertical",
+  "prettier.arrowParens": "avoid",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "turboConsoleLog.delimiterInsideMessage": "**",
+  "turboConsoleLog.addSemicolonInTheEnd": true,
+  "turboConsoleLog.insertEmptyLineAfterLogMessage": true,
+  "turboConsoleLog.insertEmptyLineBeforeLogMessage": true,
+  "turboConsoleLog.logMessagePrefix": "🪵",
+  "turboConsoleLog.quote": "'",
+  "vs-kubernetes": {
+    "vscode-kubernetes.minikube-path.mac": "/Users/roycereed/.vs-kubernetes/tools/minikube/darwin-arm64/minikube",
+    "vs-kubernetes.minikube-show-information-expiration": "2024-03-13T16:34:25.381Z"
+  },
+  "redhat.telemetry.enabled": true,
+  "workbench.editor.tabSizing": "shrink",
+  "workbench.editor.untitled.hint": "hidden",
+  "workbench.editor.untitled.labelFormat": "name",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "javascript.format.insertSpaceAfterConstructor": true,
+  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": true,
+  "turboConsoleLog.wrapLogMessage": true,
+  "peacock.affectActivityBar": false,
+  "peacock.affectStatusBar": false,
+  "colorize.colorized_colors": ["BROWSERS_COLORS", "HEXA", "RGB", "HSL"],
+  "colorize.languages": ["typescriptreact", "typescript", "javascript", "javascriptreact", "css", "scss", "tsx"],
+  "vscode-color-picker.languages": ["python", "javascript", "typescript", "typescriptreact", "tsx"],
+  "eslint.alwaysShowStatus": true,
+  "eslint.format.enable": true,
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": true,
+    "source.fixAll.eslint": true
+  },
+  "sonarlint.rules": {
+    "typescript:S3358": {
+      "level": "off"
+    }
+  },
+  "[typescript]": {},
+  "editor.wordWrapColumn": 120,
+  "editor.linkedEditing": true,
+  "boot-java.rewrite.reconcile": true,
+  "editor.tabSize": 2,
+  "editor.wordWrap": "wordWrapColumn",
+  "github.copilot.enable": {
+    "*": true,
+    "yaml": false,
+    "plaintext": false,
+    "markdown": true
+  },
+  "typescript.preferences.quoteStyle": "single",
+  "javascript.preferences.quoteStyle": "single",
+  "prettier.bracketSpacing": false,
+  "prettier.printWidth": 120,
+  "prettier.semi": false,
+  "git.autofetch": true,
+  "sort-imports.default-sort-style": "module",
+  "workbench.colorTheme": "Monokai",
+  "html.format.wrapLineLength": 0,
+  "github.copilot-labs.advanced": {},
+  "react-native-tools.showUserTips": false,
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "editor.inlayHints.fontSize": 11,
+  "editor.inlayHints.enabled": "onUnlessPressed",
+  "[python]": {
+    "editor.formatOnType": true
+  },
+  "editor.accessibilitySupport": "off",
+  "javascript.inlayHints.parameterNames.suppressWhenArgumentMatchesName": false,
+  "javascript.inlayHints.enumMemberValues.enabled": true,
+  "files.autoSave": "onFocusChange",
+  "editor.formatOnSave": true,
+  "genieai.openai.temperature": 0.4,
+  "editor.detectIndentation": false,
+  "java.inlayHints.parameterNames.enabled": "none",
+  "editor.suggest.showTypeParameters": false,
+  "prettier.trailingComma": "all",
+  "markdownlint.config": {},
+  "stylelint.configFile": ".stylelintrc.json",
+  "stylelint.config": {
+    "extends": ["stylelint-config-standard", "stylelint-prettier/recommended"],
+    "plugins": ["stylelint-order", "stylelint-scss"],
+    "syntax": "scss",
+    "rules": {
+      "block-closing-brace-newline-after": [
+        "always",
+        {
+          "ignoreAtRules": ["if", "else"]
+        }
+      ],
+      "at-rule-empty-line-before": [
+        "always",
+        {
+          "ignore": [
+            "after-comment",
+            "inside-block",
+            "blockless-after-same-name-blockless",
+            "blockless-after-blockless"
+          ]
+        }
+      ],
+      "no-empty-source": null,
+      "indentation": 4,
+      "selector-max-id": 0,
+      "max-nesting-depth": 3,
+      "selector-no-qualifying-type": [
+        true,
+        {
+          "ignore": ["class"]
+        }
+      ],
+      "function-parentheses-space-inside": "never-single-line",
+      "font-family-no-missing-generic-family-keyword": true,
+      "color-no-hex": true,
+      "order/order": ["custom-properties", "declarations"],
+      "declaration-colon-newline-after": null,
+      "order/properties-alphabetical-order": true,
+      "no-descending-specificity": null,
+      "selector-pseudo-element-no-unknown": true,
+      "at-rule-no-unknown": [
+        true,
+        {
+          "ignoreAtRules": [
+            "debug",
+            "include",
+            "content",
+            "function",
+            "return",
+            "ignores",
+            "mixin",
+            "if",
+            "else",
+            "warn",
+            "each",
+            "for",
+            "extend",
+            "use"
+          ]
+        }
+      ],
+      "selector-type-no-unknown": [
+        true,
+        {
+          "ignore": ["custom-elements"]
+        }
+      ]
+    }
+  },
+  "[markdown]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true
+  },
+  "genieai.openai.model": "gpt-4",
+  "editor.stickyScroll.enabled": true,
+  "breadcrumbs.showBooleans": false,
+  "breadcrumbs.showArrays": false,
+  "breadcrumbs.showEnumMembers": false,
+  "breadcrumbs.showEnums": false,
+  "breadcrumbs.showEvents": false,
+  "breadcrumbs.showFiles": false,
+  "breadcrumbs.showInterfaces": false,
+  "breadcrumbs.showKeys": false,
+  "breadcrumbs.showModules": false,
+  "breadcrumbs.showNamespaces": false,
+  "breadcrumbs.showNull": false,
+  "breadcrumbs.showNumbers": false,
+  "breadcrumbs.showObjects": false,
+  "breadcrumbs.showOperators": false,
+  "breadcrumbs.showPackages": false,
+  "breadcrumbs.showProperties": false,
+  "breadcrumbs.showStrings": false,
+  "breadcrumbs.showStructs": false,
+  "breadcrumbs.showTypeParameters": false,
+  "breadcrumbs.showVariables": false,
+  "breadcrumbs.showConstants": false,
+  "breadcrumbs.icons": false,
+  "breadcrumbs.showFields": false,
+  "[shellscript]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "workbench.editor.enablePreview": false,
+  "diffEditor.maxComputationTime": 0,
+  "security.workspace.trust.untrustedFiles": "open",
+  "editor.guides.bracketPairs": "active",
+  "workbench.editor.empty.hint": "hidden",
+  "window.zoomLevel": -1,
+  "rainbow_csv.csv_lint_detect_trailing_spaces": true,
+  "react-native-tools.networkInspector.consoleLogsColorTheme": "Dark",
+  "rainbow_csv.comment_prefix": "//"
+}
